@@ -2,19 +2,19 @@
 
 
 **Impact:**
-	**Unauthorized access to sensitive data**
-		- ***C**onfidentiality* - SQLi can be used to view sensitive information, such as application usernames and passwords
-		- ***I**ntegrity* - SQLi can be used to alter data in the database
-		- ***A**vailability* - SQLi can be used to delete data in the database
+	**Unauthorized access to sensitive data**  
+		- ***C**onfidentiality* - SQLi can be used to view sensitive information, such as application usernames and passwords  
+		- ***I**ntegrity* - SQLi can be used to alter data in the database  
+		- ***A**vailability* - SQLi can be used to delete data in the database  
 	**Remote code execution on the operating system**
 
 **Types of SQL Injections** :
-		**In-Band**:
-			- *Error* - Techniqe where you force the databe to generate an error giving information how things operate at the backend.
-			- *Union* -  Techniqe that leverages the union operator to combine the results of 2 queries into a single result set.
-		**Inferential**:
-			- Boolean - Asking the database true or false questions.
-			- Time - Causing the database to pause for specified time.
+		**In-Band**:  
+			- *Error* - Techniqe where you force the databe to generate an error giving information how things operate at the backend.  
+			- *Union* -  Techniqe that leverages the union operator to combine the results of 2 queries into a single result set.  
+		**Inferential**:  
+			- Boolean - Asking the database true or false questions.  
+			- Time - Causing the database to pause for specified time.  
 		**Out-of-Band** 
 			Occurs when the attacker is unable to use the same channel to launch the attack and gather the results of the attack. Usually relies on the ability of the application to make a network connection.
 
