@@ -1,12 +1,5 @@
 **SQL Injection** - Vulnerability that consists of an attacker interfering with the SQL queries that an application makes to a database.
-	
-	
-	![[Pasted image 20221105203826.png]]
-
-  	If user input is not sanitized properly an sql injection is occurred.
-	
-	![[Pasted image 20221105205315.png]]
-
+\
 **Impact:**
 	**Unauthorized access to sensitive data**
 		- ***C**onfidentiality* - SQLi can be used to view sensitive information, such as application usernames and passwords
@@ -15,8 +8,6 @@
 	**Remote code execution on the operating system**
 
 **Types of SQL Injections** :
-
-	![[Pasted image 20221105210903.png]]
 	\ 
 		**In-Band**:
 			- *Error* - Techniqe where you force the databe to generate an error giving information how things operate at the backend.
@@ -48,6 +39,7 @@
 				- Union-based SQLI is an in-band SQLi technique that leverages the UNION SQL operator to combine the results of two queries into a single result set.
 				- Example:
 					- **Input**: *blahblah.sth?id=' UNION SELECT username, password FROM users--*
+					\
 					- **Output**: 
 						- carlos
 						- admin
@@ -64,11 +56,7 @@
 		- Two common types of blind SQLi:
 			- **Boolean-based SQLi**:
 				- Boolean-based SQLi is a blind SQLi technique that uses Boolean conditions to return a different result depending on whether the query returns a TRUE or FALSE result.
-				\ 
-				- Example:
-					 ![[Pasted image 20221105215026.png]]
-					 \  
-					 ![[Pasted image 20221105215113.png]]
+				\
 			- **Time-based SQLi**:
 				- Time-based SQLi is a blind SQLi technique that relies on the database pausing for a specified amount of time, then returning the results, indicating a successful SQL query execution.
 			\ 
