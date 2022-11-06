@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "de438e8a7d55788c",
+    "type": "split",
+    "children": [
+      {
+        "id": "df9c5ec7f786d77d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be55d49ff462796b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lab-01/notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dee82cbbd5ef3dd9",
+    "type": "split",
+    "children": [
+      {
+        "id": "54242c23d4d0e407",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a4ae5934b8b7442",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1f7a39f1254819de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fd742b93f7006295",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "62bdf9236846bf08",
+    "type": "split",
+    "children": [
+      {
+        "id": "92721234efc994c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fc8e25b80f6c385",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "lab-01/notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d4c72d13be47a137",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "lab-01/notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90e72b88ee4e8506",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "775142ea8ee5d73e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "lab-01/notes.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "be55d49ff462796b",
+  "lastOpenFiles": [
+    "SQL Injection basics.md",
+    "lab-01/notes.md",
+    "Images/Pasted image 20221105203826.png",
+    "Images/Pasted image 20221105210903.png",
+    "Pasted image 20221105204159.png",
+    "Pasted image 20221105204145.png",
+    "Pasted image 20221105204121.png"
+  ]
+}
